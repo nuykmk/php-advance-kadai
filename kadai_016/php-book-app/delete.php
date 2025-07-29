@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:dbname=php_book_app;host=localhost;charset-utf8mb4';
+$dsn = 'mysql:dbname=php_book_app;host=localhost;charset=utf8mb4';
 $user = 'root';
 $password = 'root';
 
@@ -9,7 +9,7 @@ try {
   $sql_delete = 'DELETE FROM books WHERE id = :id';
   $stmt_delete = $pdo->prepare($sql_delete);
 
-  $stmt_delete->bindValue(':id', $_GET, PDO::PARAM_INT);
+  $stmt_delete->bindValue(':id', $_GET['id'], PDO::PARAM_INT);
 
   $stmt_delete->execute();
 
