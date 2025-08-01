@@ -1,7 +1,8 @@
 <?php
-$dsn = 'mysql:dbname=php_book_app;host=localhost;charset=utf8mb4';
-$user = 'root';
-$password = 'root';
+$dsn = 'mysql:dbname=yx8nwp8vjv54wax9;host=am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;charset=utf8mb4';
+$user = 'o3i1el0thl2y6ehy';
+$password = 'qpzv2zo8ic3a3ll2';
+// mysql: //o3i1el0thl2y6ehy:qpzv2zo8ic3a3ll2@am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/yx8nwp8vjv54wax9
 
 if (isset($_POST['submit'])) {
   try {
