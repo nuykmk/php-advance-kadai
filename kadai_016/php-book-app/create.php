@@ -1,8 +1,9 @@
 <?php
-$dsn = 'mysql:dbname=e26gglq2f8je6dvj;host=m1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;charset=utf8mb4';
+$dsn = 'mysql:dbname=e26gglq2f8je6dvj;host=am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;charset=utf8mb4';
 $user = 'lj6ecx8h4ys6o0dk';
 $password = 'nr0sr1of8azdndu8';
 // mysql: //lj6ecx8h4ys6o0dk:nr0sr1of8azdndu8@am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/e26gglq2f8je6dvj
+
 if (isset($_POST['submit'])) {
   try {
     $pdo = new PDO($dsn, $user, $password);
